@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1AD379B72B841E120050198B /* MercadoLibre_UIKit_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AD379B52B841E120050198B /* MercadoLibre_UIKit_SwiftUI.xcdatamodeld */; };
-		1AD379C72B841E130050198B /* MercadoLibre_UIKit_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD379C62B841E130050198B /* MercadoLibre_UIKit_SwiftUITests.swift */; };
 		1AD379D12B841E130050198B /* MercadoLibre_UIKit_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD379D02B841E130050198B /* MercadoLibre_UIKit_SwiftUIUITests.swift */; };
 		1AD379D32B841E130050198B /* MercadoLibre_UIKit_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD379D22B841E130050198B /* MercadoLibre_UIKit_SwiftUIUITestsLaunchTests.swift */; };
 		1AD37A1C2B841EC60050198B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD379E02B841EC60050198B /* LaunchScreen.storyboard */; };
@@ -37,6 +36,11 @@
 		1AD37A3C2B841EC60050198B /* ProductWebFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD37A1B2B841EC60050198B /* ProductWebFactory.swift */; };
 		F11232312B8461780008CD79 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232302B8461780008CD79 /* ProductDetailView.swift */; };
 		F11232332B8463580008CD79 /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232322B8463580008CD79 /* ProductRowView.swift */; };
+		F11232432B847D330008CD79 /* ProductsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232412B847D330008CD79 /* ProductsRepositoryTests.swift */; };
+		F11232442B847D330008CD79 /* ProductsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232422B847D330008CD79 /* ProductsViewModelTests.swift */; };
+		F11232462B847E8E0008CD79 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232452B847E8E0008CD79 /* ColorExtensions.swift */; };
+		F11232482B847EA70008CD79 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232472B847EA70008CD79 /* Color+Hex.swift */; };
+		F112324A2B847EBE0008CD79 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11232492B847EBE0008CD79 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +64,6 @@
 		1AD379A92B841E120050198B /* MercadoLibre-UIKit-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MercadoLibre-UIKit-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD379B62B841E120050198B /* MercadoLibre_UIKit_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MercadoLibre_UIKit_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		1AD379C22B841E130050198B /* MercadoLibre-UIKit-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MercadoLibre-UIKit-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AD379C62B841E130050198B /* MercadoLibre_UIKit_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibre_UIKit_SwiftUITests.swift; sourceTree = "<group>"; };
 		1AD379CC2B841E130050198B /* MercadoLibre-UIKit-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MercadoLibre-UIKit-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD379D02B841E130050198B /* MercadoLibre_UIKit_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibre_UIKit_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		1AD379D22B841E130050198B /* MercadoLibre_UIKit_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoLibre_UIKit_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -91,6 +94,11 @@
 		1AD37A1B2B841EC60050198B /* ProductWebFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductWebFactory.swift; sourceTree = "<group>"; };
 		F11232302B8461780008CD79 /* ProductDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		F11232322B8463580008CD79 /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
+		F11232412B847D330008CD79 /* ProductsRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsRepositoryTests.swift; sourceTree = "<group>"; };
+		F11232422B847D330008CD79 /* ProductsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewModelTests.swift; sourceTree = "<group>"; };
+		F11232452B847E8E0008CD79 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		F11232472B847EA70008CD79 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		F11232492B847EBE0008CD79 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +163,8 @@
 		1AD379C52B841E130050198B /* MercadoLibre-UIKit-SwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1AD379C62B841E130050198B /* MercadoLibre_UIKit_SwiftUITests.swift */,
+				F11232412B847D330008CD79 /* ProductsRepositoryTests.swift */,
+				F11232422B847D330008CD79 /* ProductsViewModelTests.swift */,
 			);
 			path = "MercadoLibre-UIKit-SwiftUITests";
 			sourceTree = "<group>";
@@ -197,6 +206,9 @@
 				1AD379EA2B841EC60050198B /* UITableView+EmptyMessage.swift */,
 				1AD379EB2B841EC60050198B /* UITextField+Combine.swift */,
 				1AD379EC2B841EC60050198B /* UIImageViewExtensions.swift */,
+				F11232452B847E8E0008CD79 /* ColorExtensions.swift */,
+				F11232472B847EA70008CD79 /* Color+Hex.swift */,
+				F11232492B847EBE0008CD79 /* WebView.swift */,
 			);
 			path = CommonUI;
 			sourceTree = "<group>";
@@ -429,6 +441,7 @@
 					};
 					1AD379C12B841E130050198B = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = 1AD379A82B841E120050198B;
 					};
 					1AD379CB2B841E130050198B = {
@@ -489,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD37A2C2B841EC60050198B /* ResultResponse.swift in Sources */,
+				F11232462B847E8E0008CD79 /* ColorExtensions.swift in Sources */,
 				1AD37A2E2B841EC60050198B /* ProductsViewController.swift in Sources */,
 				1AD37A262B841EC60050198B /* ApiTool.swift in Sources */,
 				1AD37A1E2B841EC60050198B /* AppDelegate.swift in Sources */,
@@ -500,10 +514,12 @@
 				1AD37A2B2B841EC60050198B /* MercadoLibreResponse.swift in Sources */,
 				1AD37A252B841EC60050198B /* UIImageViewExtensions.swift in Sources */,
 				1AD37A322B841EC60050198B /* ProductsRouter.swift in Sources */,
+				F112324A2B847EBE0008CD79 /* WebView.swift in Sources */,
 				1AD37A3A2B841EC60050198B /* ProductWebView.swift in Sources */,
 				1AD37A2F2B841EC60050198B /* ProductsAdapter.swift in Sources */,
 				1AD37A292B841EC60050198B /* ProductsViewModel.swift in Sources */,
 				1AD37A3C2B841EC60050198B /* ProductWebFactory.swift in Sources */,
+				F11232482B847EA70008CD79 /* Color+Hex.swift in Sources */,
 				1AD37A2A2B841EC60050198B /* ProductsRepository.swift in Sources */,
 				F11232312B8461780008CD79 /* ProductDetailView.swift in Sources */,
 				1AD37A272B841EC60050198B /* ApiManager.swift in Sources */,
@@ -520,7 +536,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD379C72B841E130050198B /* MercadoLibre_UIKit_SwiftUITests.swift in Sources */,
+				F11232442B847D330008CD79 /* ProductsViewModelTests.swift in Sources */,
+				F11232432B847D330008CD79 /* ProductsRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,6 +757,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5LAGSY8W8;
@@ -749,6 +767,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "conan.MercadoLibre-UIKit-SwiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MercadoLibre-UIKit-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MercadoLibre-UIKit-SwiftUI";
@@ -760,6 +779,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5LAGSY8W8;

@@ -25,8 +25,6 @@ struct ProductDetailView: View {
                 VStack(spacing: 30) {
                     rowProduct
                     share
-                    arrival
-                    withdrawal
                     showMore
                     prompt
                 }
@@ -145,45 +143,3 @@ struct ProductDetailView: View {
         }.frame(height: 300)
     }
 }
-
-/////////
-public extension Color {
-    static var primaryYellow: Color { .init(hex: "#F8DE46") ?? .yellow }
-    static var lightGrayColor: Color { .init(hex: "#F2F2F2") ?? .yellow }
-}
-
-//////
-public extension Color {
-    init?(hex: String,
-          alpha: Double = 1) {
-        guard let uint = UInt(("0x" + hex).suffix(6), radix: 16) else {
-            return nil
-        }
-        self.init(hex: uint, alpha: alpha)
-    }
-
-    init(hex: UInt, alpha: Double = 1) {
-        self.init(.sRGB,
-                  red: Double((hex >> 16) & 0xff) / 255,
-                  green: Double((hex >> 08) & 0xff) / 255,
-                  blue: Double((hex >> 00) & 0xff) / 255,
-                  opacity: alpha)
-    }
-}
-
-
-/////
-import WebKit
-
-struct WebView: UIViewRepresentable {
-    let url: String
-    
-    func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
-    }
-    
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.load(URLRequest(url: URL(string: url)!))
-    }
-}
-
